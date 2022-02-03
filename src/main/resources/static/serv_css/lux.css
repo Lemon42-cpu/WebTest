@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,300&subset=latin,cyrillic);
+* {font-family: 'Roboto Condensed', Tahoma; font-size : 14px; color : #000; font-weight : 400;}
+
+body {margin : 0px; background : url(../images/shell/bg_page.jpg) center top repeat-x #000;}
+.header {width : 980px; height : 298px; position : relative; background : url(../images/shell/bg_header.jpg) center top no-repeat #FFFFFF;}
+
+.general_menu { position : absolute; top : 259px; left : 15px; }
+.general_menu ul { margin : 0px; padding : 0px; background : url(../images/shell/top_separator.png) left center no-repeat; float : left;}
+.general_menu ul li {display : block; float : left; background : url(../images/shell/top_separator.png) right center no-repeat; margin : 0px; padding : 0px 25px 0px 25px;}
+.general_menu ul li a {color : #FFFFFF; text-decoration : none; font-size : 20px;}
+.general_menu ul li a:hover {border-bottom : 1px dotted #FFFFFF;}
+.general_menu ul li a.action {color : #ff9c00; text-decoration : none; font-size : 16px;}
+.general_menu ul li a.action:hover {border-bottom : 1px dotted #ff9c00;}
+
+a.go_home {display : block; position : absolute; top : 10px; left : 10px; width : 228px; height : 160px;}
+
+
+.top_name {position : absolute!important; top : 87px; right : 0px; font-size : 44px; color : #000000;}
+.top_order  {position : absolute!important; top : 142px; right : 0px; font-size : 16px!important; padding : 8px 45px 10px 45px!important;text-decoration : none;}
+.top_name small {font-size : 28px; color : #000000;}
+.top_type {color : #000; position : absolute; top : 75px; right : 5px; font-family: verdana; font-size : 20px; letter-spacing: -1px; line-height : 11px;}
+
+one_bottom {position : absolute; right : 20px; top : 100px; font-size : 36px;}
+.phone_bottom small {font-size : 22px;}
+
+.container {position : relative; text-align : left; width : 980px; margin : 0px auto;}
+.content {background : #E6E6FA; padding : 10px 0px 20px 20px;}
+
+
+.title_1 {text-transform : uppercase; font-weight : normal; font-size : 35px; color : #000000!important; padding : 40px 0px 50px 330px; clear : both;}
+.title_2 {line-height : 120%; text-transform : uppercase; font-weight : normal; font-size : 28px; color : #000000!important; padding : 30px 0px 20px 0px; clear : both; display : block;}
+.title_3 {text-transform :none; font-weight: normal; font-size : 22px; color : #000000!important; padding : 0px 0px 10px 0px; clear : both; display : block;}
+
+.actions img {float : left; margin : 0px 20px 20px 0px;}
+.categories a {
+display :inline-block;
+float : none; 
+margin : 3px 20px 45px 0px; 
+text-align : center; 
+text-decoration : none; 
+background : url(../images/shell/bg_dark.png);
+overflow : hidden;
+position : relative;
+z-index : 2;
+border: solid 1px black;
+}
+
+.categories a:before {
+content : "";
+display : block;
+background: url(../images/shell/bg_orange.png);
+position : absolute;
+width : 100%;
+height : 100%;
+top : 0px;
+left : 0px;
+z-index : -1;
+opacity : 0;
+-webkit-transition: .3s ease-in-out;
+-moz-transition: .3s ease-in-out;
+-ms-transition: .3s ease-in-out;
+-o-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+
+.categories a:hover:before {
+opacity : 1;
+}
+.categories a img {width : 284px; height : 160px;}
+.categories a span {display : block; color : #FFFFFF; text-transform : uppercase; font-size: 24px; padding : 10px 0px;}
+
+a.button {
+border : 0px; 
+text-align : center; 
+color : #FFFFFF;  
+background : url(../images/shell/bg_orange.png); 
+display : block; 
+padding : 10px 25px; 
+font-size : 22px;
+overflow : hidden;
+position : relative;
+z-index : 2;
+}
+a.button:before {
+content : "";
+display : block;
+background: url(../images/shell/bg_green.png);
+position : absolute;
+width : 100%;
+height : 100%;
+top : 0px;
+left : 0px;
+z-index : -1;
+opacity : 0;
+-webkit-transition: .3s ease-in-out;
+-moz-transition: .3s ease-in-out;
+-ms-transition: .3s ease-in-out;
+-o-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+a.button:hover:before {
+opacity : 1;
+}
+.start  {position : absolute!important;
+    top : 0px; 
+    right : 360px;
+    font-size :16px!important; 
+    padding : 20px 70px 20px 70px!important;
+    text-decoration : none;}

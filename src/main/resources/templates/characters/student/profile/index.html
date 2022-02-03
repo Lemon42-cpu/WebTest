@@ -1,0 +1,39 @@
+ <!DOCTYPE HTML>
+    <html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Обработка тестовых работ студента</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../../../serv_scripts/jquery.cycle.all.min.js"></script>
+    <link rel="STYLESHEET" href="../../../serv_css/jrotator.css" type="text/css">
+    <link rel="STYLESHEET" href="../../../serv_css\lux.css" type="text/css">
+</head>
+<body style="background : url(../../../images/shell/bg_page.jpg) center top repeat-x #E6E6FA">
+<div class="container">
+    <div class="header">
+        <div class="top_name">
+            Пылаев Кирилл
+        </div>
+        <a class="button top_order">
+            Недоступно
+        </a>
+        <div class="top_type">
+            Студент
+        </div>
+        <div class="general_menu">
+            <ul>
+                <li><a href="/">Назад</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div  class="container">
+    <div class = "title_1">профиль</div>
+    <div class = "title_1">Рксп
+    <p th:each="el: ${posts}" th:text="${el.tittle}"></p>
+        <p th:each="el: ${posts}" th:text="${el.time}"></p>
+    </div>
+</div>
+</body>
+</html>

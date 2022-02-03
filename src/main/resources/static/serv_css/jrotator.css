@@ -1,0 +1,94 @@
+#lveis-wrapper_3 {
+	width: 980px !important;
+	margin:0 0 0px 0 !important;
+	padding:0 !important;
+	float:none;
+}
+#lveis-wrapper_3 ul#lveis {
+	height: 484px !important;
+}
+
+#lveis-wrapper_3 ul#lveis li {
+	width: 980px;
+	height: 484px;
+	position : relative;
+}
+
+#lveis-wrapper_3 ul#lveis, #lveis-wrapper_3 ul#lveis li {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	overflow:hidden;
+}
+#lveis-wrapper_3 .lveisnav {
+	position : relative;
+	width: 980px !important;
+	height: 0px !important;
+	display:block;
+	z-index : 1000;
+}
+
+#lveis-wrapper_3 .lveisindex {
+	position : absolute;
+	top : 3px;
+	right : 3px;
+}
+
+#lveis-wrapper_3 .lveisindex a {
+	display : inline-block;
+	height : 14px;
+	width:14px;
+	background-image:url(../images/shell/pagination.png);
+	background-position:0 0;
+	overflow:hidden;
+	margin : 0px;
+}
+#lveis-wrapper_3 .lveisindex a:hover {
+	background-position:0 -14px;
+}
+#lveis-wrapper_3 .lveisnav .prev, #lveis-wrapper_3 .lveisnav .next {
+	display:block;
+	position : absolute;
+	top : -220px;
+}
+
+#lveis-wrapper_3 .lveisnav .prev {
+	left : -15px;
+}
+
+#lveis-wrapper_3 .lveisnav .next {
+	right : -15px;
+}
+
+#lveis-wrapper_3 .lveisnav .prev a img, #lveis-wrapper_3 .lveisnav .next a img{
+	background : url(../images/shell/bg_dark.png); border-radius: 0px;
+}
+
+#lveis-wrapper_3 .lveisnav .prev a:hover img, #lveis-wrapper_3 .lveisnav .next a:hover img{
+	background : url(../images/shell/bg_medium.png); border-radius: 0px;
+}
+
+
+#lveis-wrapper_3 .lveisnav a {
+	position : relative;
+	color:#000000 !important;
+	border:0px solid blue !important;
+	font-size:0px !important;
+	padding:0 0px !important;
+	margin: 0px 2px 0px 0px;
+	text-decoration:none;
+}
+#lveis-wrapper_3 .lveisnav a:hover {
+	color: #555555 !important;
+}
+#lveis-wrapper_3 .lveisindex a.activeSlide {
+	color: #000000 !important;
+	background-position:0 -14px;
+}
+#lveis-wrapper_3 #lveis img, #lveis-wrapper_3 #lveis a {
+	border:0 !important;
+}
+#lveis-wrapper_3 .lveisnav-clr {
+	clear:both;
+}
+.lveisnav-clr {background : url(../images/shell/bg_medium.png); height : 20px;}
